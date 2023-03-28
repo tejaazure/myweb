@@ -32,12 +32,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://54.152.191.183:8081/repository/sample-snapshot/</url>
+		    <url>http://172.31.22.52:8081/repository/sample-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://54.152.191.183:8081/repository/snapshot-releases/</url>
+		    <url>http://172.31.22.52:8081/repository/snapshot-releases/</url>
 		</repository>
   	</distributionManagement>
 	
