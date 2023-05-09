@@ -25,7 +25,7 @@ pipeline{
                        [
                             artifactId: 'myweb', 
                             classifier: '', 
-                            file: "target/myweb-8.2.0", 
+                            file: "target/myweb-8.2.0.snapshot", 
                             type: 'snapshot'
                        ]
                   ], 
@@ -35,7 +35,7 @@ pipeline{
                   nexusVersion: 'nexus3', 
                   protocol: 'http', 
                   repository: 'sample-snapshot', 
-                  version: '8.2.0.snapshot'  
+                  version: '8.2.0-SNAPSHOT'  
               }
             }
         stage("deploy-dev"){
