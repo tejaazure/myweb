@@ -25,8 +25,8 @@ pipeline{
                        [
                             artifactId: 'myweb', 
                             classifier: '', 
-                            file: "target/myweb-8.2.0.war", 
-                            type: 'war'
+                            file: "target/myweb-8.2.0-SNAPSHOT", 
+                            type: 'snapshot'
                        ]
                   ], 
                   credentialsId: 'nexus3', 
